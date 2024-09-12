@@ -1,0 +1,660 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+MERGED from [:connectivity_plus] D:\MAUZO\PROJECT\mauzo360_pro\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:google_maps_flutter_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_maps_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\MAUZO\PROJECT\mauzo360_pro\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_sign_in_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-26:12
+MERGED from [:path_provider_android] D:\MAUZO\PROJECT\mauzo360_pro\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] D:\MAUZO\PROJECT\mauzo360_pro\build\permission_handler_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] D:\MAUZO\PROJECT\mauzo360_pro\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:sms_autofill] D:\MAUZO\PROJECT\mauzo360_pro\build\sms_autofill\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] D:\MAUZO\PROJECT\mauzo360_pro\build\sqflite\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:video_player_android] D:\MAUZO\PROJECT\mauzo360_pro\build\video_player_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.media3:media3-extractor:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3c40458ef4b530e7677c28a0d28b5216\transformed\jetified-media3-extractor-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\778b9d74f4d6b3b3b9b7298d21ed02a8\transformed\jetified-media3-container-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\71269e5c99c19211d015ab63cd83e48f\transformed\jetified-media3-datasource-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\f4631641af5abfc0165d9093fddd4d08\transformed\jetified-media3-decoder-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c095839e8d51235a65a369709f1ad0a9\transformed\jetified-media3-database-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\180d6505b0b2bae8a46ca2cd49e64135\transformed\jetified-media3-common-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\00438e4bff2c92e44635c5eec3295f56\transformed\jetified-media3-exoplayer-hls-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7a8a1ff36df71910380e37827c7fe948\transformed\jetified-media3-exoplayer-dash-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer-rtsp:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\bd7d701ac71b9a2f893bac8f35686973\transformed\jetified-media3-exoplayer-rtsp-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer-smoothstreaming:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\d218dfc9b529e0e54b991bae4b6815c1\transformed\jetified-media3-exoplayer-smoothstreaming-1.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\6221dc2b0995fc21e7f3260e5bc38405\transformed\jetified-media3-exoplayer-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\b330651907b0b2a4f825f999898a9a46\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:2:1-72:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha30] C:\Users\SHALEMU\.gradle\caches\transforms-3\b12b41d0d83edf364d428b038367c5e9\transformed\jetified-camera-view-1.0.0-alpha30\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3c4eee5f88a3e9c9f82e0e3bf250ca5e\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\518657091a9cff92315aa8cb9bf9032d\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\7cc43c6893dddd217d15797ec190a688\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\a5922a692219ee636c5d2c0931dfa754\transformed\jetified-camera-lifecycle-1.1.0-alpha10\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\SHALEMU\.gradle\caches\transforms-3\03dd05f25daaa973e1d20da925ade7ca\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\SHALEMU\.gradle\caches\transforms-3\22e686ca97a6d62650b8358dee07fb71\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\fee7aac3cddff56d03ffeb8ecccbea02\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\25bd2387766da83205b76a1ebd11abda\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\de54fba29ee6284f70dac73b12247475\transformed\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\2147dffa71e0a40f41fea3ef8d39571e\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2c5d1b696351cf911393e080cb6dfa46\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\12ae7fecafa6b437166d4c35df139278\transformed\jetified-activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\0d685eb4e85f1c430d8789f9afeee1f6\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\e97143dca54d72e2053036996f6a1293\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\aee1121c377488d5978488ee7c5b9fa2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\0bd7b3cb9255e3a5bdc08a055396d2d9\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3a838e30caba5a4e25ba7af8bc457234\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7f17cf7f31c3ee48725e5ab779d482d8\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\be5cf1f1f3864c6119cfac85a540cfd8\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\1dd5816503e09204a32f84ddac569ff0\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\d4804799a0de3c739d85752100f6c221\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\c3a281dbe0f319065d5c1580328eb2a9\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\34e58d7567c41d010958311b982d5fbb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\4445a28de9743def4edd4764081324a0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\27f6dd2a53098ac13781dd228ab158e1\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\f3993d9aa6ee36aeae246907cea028d1\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\a2704269ee7456ecff4987e58f5f5e99\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\99997d6980d58c634764898b7551b12d\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\279fbb96fce35727edde375a3c91352e\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d4bc5a49b0f364aca19e7543f4f469a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\5205ee536b0264947eb68083f73b445b\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\1e6979a03146c1d0f9499a1500ae707a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d6382c101a48ed38900d28a9ac56494\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7d4ee77c9c710d19b9e7c5ead38be6c4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\8d124c3a972e129cd07073f8d1576da4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\SHALEMU\.gradle\caches\transforms-3\c14e0a541f8357c5dc9aad70aac7237e\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\b5e9984d897270ce5b6a4417fe318c8e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\11739f0e230d81f56951b55d11c7d2a3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\607a6741d6e136bef22688fe43dc3be8\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fe5d5c3fce92001f0012fb48ffaffe72\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fcbe05566cc0017ea3a9b6636e9acb39\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+	package
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:70-96
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:1-37:12
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:2:3-77
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-80
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:2:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:3:3-78
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-81
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:3:20-76
+uses-permission#android.permission.CAMERA
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:4:3-62
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-65
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:4:20-60
+uses-permission#android.permission.INTERNET
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:10:3-64
+MERGED from [:google_sign_in_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_sign_in_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-67
+MERGED from [:google_sign_in_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_sign_in_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-67
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-67
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:10:20-62
+application
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:11:3-36:17
+MERGED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+MERGED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:12:5-70:19
+MERGED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:12:5-70:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\fee7aac3cddff56d03ffeb8ecccbea02\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\fee7aac3cddff56d03ffeb8ecccbea02\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\25bd2387766da83205b76a1ebd11abda\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\25bd2387766da83205b76a1ebd11abda\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\de54fba29ee6284f70dac73b12247475\transformed\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\de54fba29ee6284f70dac73b12247475\transformed\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d4bc5a49b0f364aca19e7543f4f469a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d4bc5a49b0f364aca19e7543f4f469a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d6382c101a48ed38900d28a9ac56494\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d6382c101a48ed38900d28a9ac56494\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\8d124c3a972e129cd07073f8d1576da4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\8d124c3a972e129cd07073f8d1576da4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fe5d5c3fce92001f0012fb48ffaffe72\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fe5d5c3fce92001f0012fb48ffaffe72\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:11:16-40
+	android:exported
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:12:3-26
+	android:icon
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:11:41-75
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:14:4-15:73
+	android:value
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:15:16-71
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:14:15-60
+activity#com.mauzoApp.app.MainActivity
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:16:5-32:16
+	android:launchMode
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:5-35
+	android:hardwareAccelerated
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:222-256
+	android:windowSoftInputMode
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:257-299
+	android:exported
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:300-323
+	android:configChanges
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:71-221
+	android:theme
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:36-70
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:16:15-43
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:22:7-113
+	android:resource
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:22:74-111
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:22:18-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:28:7-31:23
+action#android.intent.action.MAIN
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:29:9-60
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:29:17-58
+category#android.intent.category.LAUNCHER
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:30:9-68
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:30:19-66
+meta-data#flutterEmbedding
+ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:35:5-67
+	android:value
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:35:48-65
+	android:name
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:35:16-47
+uses-sdk
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+MERGED from [:connectivity_plus] D:\MAUZO\PROJECT\mauzo360_pro\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] D:\MAUZO\PROJECT\mauzo360_pro\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_maps_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_maps_flutter_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\MAUZO\PROJECT\mauzo360_pro\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\MAUZO\PROJECT\mauzo360_pro\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_sign_in_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] D:\MAUZO\PROJECT\mauzo360_pro\build\google_sign_in_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\MAUZO\PROJECT\mauzo360_pro\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\MAUZO\PROJECT\mauzo360_pro\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] D:\MAUZO\PROJECT\mauzo360_pro\build\permission_handler_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] D:\MAUZO\PROJECT\mauzo360_pro\build\permission_handler_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\MAUZO\PROJECT\mauzo360_pro\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\MAUZO\PROJECT\mauzo360_pro\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:sms_autofill] D:\MAUZO\PROJECT\mauzo360_pro\build\sms_autofill\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:sms_autofill] D:\MAUZO\PROJECT\mauzo360_pro\build\sms_autofill\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\MAUZO\PROJECT\mauzo360_pro\build\sqflite\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\MAUZO\PROJECT\mauzo360_pro\build\sqflite\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:video_player_android] D:\MAUZO\PROJECT\mauzo360_pro\build\video_player_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:video_player_android] D:\MAUZO\PROJECT\mauzo360_pro\build\video_player_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media3:media3-extractor:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3c40458ef4b530e7677c28a0d28b5216\transformed\jetified-media3-extractor-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3c40458ef4b530e7677c28a0d28b5216\transformed\jetified-media3-extractor-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\778b9d74f4d6b3b3b9b7298d21ed02a8\transformed\jetified-media3-container-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\778b9d74f4d6b3b3b9b7298d21ed02a8\transformed\jetified-media3-container-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\71269e5c99c19211d015ab63cd83e48f\transformed\jetified-media3-datasource-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\71269e5c99c19211d015ab63cd83e48f\transformed\jetified-media3-datasource-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\f4631641af5abfc0165d9093fddd4d08\transformed\jetified-media3-decoder-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\f4631641af5abfc0165d9093fddd4d08\transformed\jetified-media3-decoder-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c095839e8d51235a65a369709f1ad0a9\transformed\jetified-media3-database-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c095839e8d51235a65a369709f1ad0a9\transformed\jetified-media3-database-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\180d6505b0b2bae8a46ca2cd49e64135\transformed\jetified-media3-common-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\180d6505b0b2bae8a46ca2cd49e64135\transformed\jetified-media3-common-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\00438e4bff2c92e44635c5eec3295f56\transformed\jetified-media3-exoplayer-hls-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-hls:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\00438e4bff2c92e44635c5eec3295f56\transformed\jetified-media3-exoplayer-hls-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7a8a1ff36df71910380e37827c7fe948\transformed\jetified-media3-exoplayer-dash-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7a8a1ff36df71910380e37827c7fe948\transformed\jetified-media3-exoplayer-dash-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-rtsp:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\bd7d701ac71b9a2f893bac8f35686973\transformed\jetified-media3-exoplayer-rtsp-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-rtsp:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\bd7d701ac71b9a2f893bac8f35686973\transformed\jetified-media3-exoplayer-rtsp-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-smoothstreaming:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\d218dfc9b529e0e54b991bae4b6815c1\transformed\jetified-media3-exoplayer-smoothstreaming-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-smoothstreaming:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\d218dfc9b529e0e54b991bae4b6815c1\transformed\jetified-media3-exoplayer-smoothstreaming-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\6221dc2b0995fc21e7f3260e5bc38405\transformed\jetified-media3-exoplayer-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\6221dc2b0995fc21e7f3260e5bc38405\transformed\jetified-media3-exoplayer-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\b330651907b0b2a4f825f999898a9a46\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\b330651907b0b2a4f825f999898a9a46\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:6:5-10:16
+MERGED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:6:5-10:16
+MERGED from [androidx.camera:camera-view:1.0.0-alpha30] C:\Users\SHALEMU\.gradle\caches\transforms-3\b12b41d0d83edf364d428b038367c5e9\transformed\jetified-camera-view-1.0.0-alpha30\AndroidManifest.xml:20:5-23:145
+MERGED from [androidx.camera:camera-view:1.0.0-alpha30] C:\Users\SHALEMU\.gradle\caches\transforms-3\b12b41d0d83edf364d428b038367c5e9\transformed\jetified-camera-view-1.0.0-alpha30\AndroidManifest.xml:20:5-23:145
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3c4eee5f88a3e9c9f82e0e3bf250ca5e\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3c4eee5f88a3e9c9f82e0e3bf250ca5e\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\518657091a9cff92315aa8cb9bf9032d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\518657091a9cff92315aa8cb9bf9032d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\7cc43c6893dddd217d15797ec190a688\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\7cc43c6893dddd217d15797ec190a688\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\a5922a692219ee636c5d2c0931dfa754\transformed\jetified-camera-lifecycle-1.1.0-alpha10\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\a5922a692219ee636c5d2c0931dfa754\transformed\jetified-camera-lifecycle-1.1.0-alpha10\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\SHALEMU\.gradle\caches\transforms-3\03dd05f25daaa973e1d20da925ade7ca\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\SHALEMU\.gradle\caches\transforms-3\03dd05f25daaa973e1d20da925ade7ca\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\SHALEMU\.gradle\caches\transforms-3\22e686ca97a6d62650b8358dee07fb71\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\SHALEMU\.gradle\caches\transforms-3\22e686ca97a6d62650b8358dee07fb71\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\fee7aac3cddff56d03ffeb8ecccbea02\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\fee7aac3cddff56d03ffeb8ecccbea02\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\25bd2387766da83205b76a1ebd11abda\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\25bd2387766da83205b76a1ebd11abda\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\de54fba29ee6284f70dac73b12247475\transformed\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\de54fba29ee6284f70dac73b12247475\transformed\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\2147dffa71e0a40f41fea3ef8d39571e\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\2147dffa71e0a40f41fea3ef8d39571e\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2c5d1b696351cf911393e080cb6dfa46\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2c5d1b696351cf911393e080cb6dfa46\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\12ae7fecafa6b437166d4c35df139278\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\12ae7fecafa6b437166d4c35df139278\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\0d685eb4e85f1c430d8789f9afeee1f6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\0d685eb4e85f1c430d8789f9afeee1f6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\e97143dca54d72e2053036996f6a1293\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\e97143dca54d72e2053036996f6a1293\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\aee1121c377488d5978488ee7c5b9fa2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\aee1121c377488d5978488ee7c5b9fa2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\0bd7b3cb9255e3a5bdc08a055396d2d9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\0bd7b3cb9255e3a5bdc08a055396d2d9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3a838e30caba5a4e25ba7af8bc457234\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3a838e30caba5a4e25ba7af8bc457234\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7f17cf7f31c3ee48725e5ab779d482d8\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7f17cf7f31c3ee48725e5ab779d482d8\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\be5cf1f1f3864c6119cfac85a540cfd8\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\be5cf1f1f3864c6119cfac85a540cfd8\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\1dd5816503e09204a32f84ddac569ff0\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\1dd5816503e09204a32f84ddac569ff0\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\d4804799a0de3c739d85752100f6c221\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\d4804799a0de3c739d85752100f6c221\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\c3a281dbe0f319065d5c1580328eb2a9\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\c3a281dbe0f319065d5c1580328eb2a9\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\34e58d7567c41d010958311b982d5fbb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\34e58d7567c41d010958311b982d5fbb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\4445a28de9743def4edd4764081324a0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\4445a28de9743def4edd4764081324a0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\27f6dd2a53098ac13781dd228ab158e1\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\27f6dd2a53098ac13781dd228ab158e1\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\f3993d9aa6ee36aeae246907cea028d1\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\f3993d9aa6ee36aeae246907cea028d1\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\a2704269ee7456ecff4987e58f5f5e99\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\a2704269ee7456ecff4987e58f5f5e99\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\99997d6980d58c634764898b7551b12d\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\99997d6980d58c634764898b7551b12d\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\279fbb96fce35727edde375a3c91352e\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\279fbb96fce35727edde375a3c91352e\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d4bc5a49b0f364aca19e7543f4f469a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d4bc5a49b0f364aca19e7543f4f469a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\5205ee536b0264947eb68083f73b445b\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\5205ee536b0264947eb68083f73b445b\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\1e6979a03146c1d0f9499a1500ae707a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\1e6979a03146c1d0f9499a1500ae707a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d6382c101a48ed38900d28a9ac56494\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d6382c101a48ed38900d28a9ac56494\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7d4ee77c9c710d19b9e7c5ead38be6c4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\7d4ee77c9c710d19b9e7c5ead38be6c4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\8d124c3a972e129cd07073f8d1576da4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\8d124c3a972e129cd07073f8d1576da4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\SHALEMU\.gradle\caches\transforms-3\c14e0a541f8357c5dc9aad70aac7237e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\SHALEMU\.gradle\caches\transforms-3\c14e0a541f8357c5dc9aad70aac7237e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\b5e9984d897270ce5b6a4417fe318c8e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\b5e9984d897270ce5b6a4417fe318c8e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\11739f0e230d81f56951b55d11c7d2a3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\11739f0e230d81f56951b55d11c7d2a3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\607a6741d6e136bef22688fe43dc3be8\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\607a6741d6e136bef22688fe43dc3be8\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fe5d5c3fce92001f0012fb48ffaffe72\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fe5d5c3fce92001f0012fb48ffaffe72\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fcbe05566cc0017ea3a9b6636e9acb39\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fcbe05566cc0017ea3a9b6636e9acb39\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:9:9-170
+	android:targetSdkVersion
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity_plus] D:\MAUZO\PROJECT\mauzo360_pro\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\180d6505b0b2bae8a46ca2cd49e64135\transformed\jetified-media3-common-1.4.0\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\180d6505b0b2bae8a46ca2cd49e64135\transformed\jetified-media3-common-1.4.0\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\6221dc2b0995fc21e7f3260e5bc38405\transformed\jetified-media3-exoplayer-1.4.0\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.4.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\6221dc2b0995fc21e7f3260e5bc38405\transformed\jetified-media3-exoplayer-1.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:connectivity_plus] D:\MAUZO\PROJECT\mauzo360_pro\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+queries
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-18:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+package#${applicationId}
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-52
+	android:name
+		ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-49
+package#com.mauzoApp.app
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-52
+	android:name
+		ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-49
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-14:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-73
+	android:name
+		ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:21-70
+intent#action:name:android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:18
+action#android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-80
+	android:name
+		ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:16:21-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from [:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\release\AndroidManifest.xml:23:22-68
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:13:9-22:20
+	android:grantUriPermissions
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:17:13-47
+	android:authorities
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:15:13-64
+	android:exported
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:14:13-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:18:13-21:25
+	android:resource
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:20:17-51
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:19:17-67
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:24:9-27:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:26:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:25:13-72
+activity#com.luck.picture.lib.PictureSelectorWeChatStyleActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:28:9-31:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:30:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:29:13-83
+activity#com.luck.picture.lib.PictureSelectorCameraEmptyActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:32:9-36:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:34:13-74
+	android:theme
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:35:13-61
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:33:13-83
+activity#com.luck.picture.lib.PictureCustomCameraActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:37:9-40:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:39:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:38:13-76
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:41:9-44:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:43:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:42:13-71
+activity#com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:45:9-48:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:47:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:46:13-90
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:49:9-53:20
+	android:screenOrientation
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:52:13-47
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:51:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:50:13-73
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:54:9-57:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:56:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:55:13-79
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:58:9-61:20
+	android:configChanges
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:60:13-74
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:59:13-73
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:62:9-65:20
+	android:theme
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:64:13-58
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:63:13-60
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:66:9-69:20
+	android:theme
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:68:13-58
+	android:name
+		ADDED from [io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:67:13-74
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fe5d5c3fce92001f0012fb48ffaffe72\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\fe5d5c3fce92001f0012fb48ffaffe72\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:31:9-35:45
+	android:enabled
+		ADDED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:33:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:34:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:35:13-42
+	android:name
+		ADDED from [androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:32:13-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.mauzoApp.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.mauzoApp.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d4bc5a49b0f364aca19e7543f4f469a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\3d4bc5a49b0f364aca19e7543f4f469a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

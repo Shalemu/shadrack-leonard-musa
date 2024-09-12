@@ -1,0 +1,387 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mauzoApp.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:10:3-64
+14-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:10:20-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:2:3-77
+15-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:2:20-75
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:3:3-78
+16-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:3:20-76
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:4:3-62
+17-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:4:20-60
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:connectivity_plus] D:\MAUZO\PROJECT\mauzo360_pro\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+18-->[:connectivity_plus] D:\MAUZO\PROJECT\mauzo360_pro\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+19
+20    <queries>
+20-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-18:15
+21        <package android:name="com.mauzoApp.app" />
+21-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-52
+21-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-49
+22
+23        <intent>
+23-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-14:18
+24            <action android:name="android.media.action.IMAGE_CAPTURE" />
+24-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-73
+24-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-70
+25        </intent>
+26        <intent>
+26-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:18
+27            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+27-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-80
+27-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-77
+28        </intent>
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+33-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-71
+33-->[:images_picker] D:\MAUZO\PROJECT\mauzo360_pro\build\images_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:23:22-68
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+37        android:required="true" />
+37-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+38
+39    <permission
+39-->[androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+40        android:name="com.mauzoApp.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.mauzoApp.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:11:3-36:17
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.13.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\437b3304a15066df8b56be823a235f67\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:exported="true"
+48-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:12:3-26
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/ic_launcher"
+50-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:11:41-75
+51        android:label="mauzoApp" >
+51-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:11:16-40
+52        <meta-data
+52-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:14:4-15:73
+53            android:name="com.google.android.geo.API_KEY"
+53-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:14:15-60
+54            android:value="AIzaSyBik0K8HHrKnsFfTo-XG5ArCy3XRcLVqN0" />
+54-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:15:16-71
+55
+56        <activity
+56-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:16:5-32:16
+57            android:name="com.mauzoApp.app.MainActivity"
+57-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:16:15-43
+58            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+58-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:71-221
+59            android:exported="true"
+59-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:300-323
+60            android:hardwareAccelerated="true"
+60-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:222-256
+61            android:launchMode="singleTop"
+61-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:5-35
+62            android:theme="@style/LaunchTheme"
+62-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:36-70
+63            android:windowSoftInputMode="adjustResize" >
+63-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:17:257-299
+64
+65            <!--
+66           Specifies an Android theme to apply to this Activity as soon as
+67                 the Android process has started. This theme is visible to the user
+68                 while the Flutter UI initializes. After that, this theme continues
+69                 to determine the Window background behind the Flutter UI.
+70            -->
+71            <meta-data
+71-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:22:7-113
+72                android:name="io.flutter.embedding.android.NormalTheme"
+72-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:22:18-73
+73                android:resource="@style/NormalTheme" />
+73-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:22:74-111
+74            <!--
+75           Displays an Android View that continues showing the launch screen
+76                 Drawable until Flutter paints its first frame, then this splash
+77                 screen fades out. A splash screen is useful to avoid any visual
+78                 gap between the end of Android's launch screen and the painting of
+79                 Flutter's first frame.
+80            -->
+81            <intent-filter>
+81-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:28:7-31:23
+82                <action android:name="android.intent.action.MAIN" />
+82-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:29:9-60
+82-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:29:17-58
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:30:9-68
+84-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:30:19-66
+85            </intent-filter>
+86        </activity>
+87        <!--
+88         Don't delete the meta-data below.
+89             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+90        -->
+91        <meta-data
+91-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:35:5-67
+92            android:name="flutterEmbedding"
+92-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:35:16-47
+93            android:value="2" />
+93-->D:\MAUZO\PROJECT\mauzo360_pro\android\app\src\main\AndroidManifest.xml:35:48-65
+94
+95        <uses-library
+95-->[androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+98        <uses-library
+98-->[androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\9900132c67d02de6dd3d3454938ebd57\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+101
+102        <provider
+102-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:13:9-22:20
+103            android:name="com.luck.picture.lib.PictureFileProvider"
+103-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:14:13-68
+104            android:authorities="com.mauzoApp.app.luckProvider"
+104-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:15:13-64
+105            android:exported="false"
+105-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:16:13-37
+106            android:grantUriPermissions="true" >
+106-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:17:13-47
+107            <meta-data
+107-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:18:13-21:25
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:19:17-67
+109                android:resource="@xml/file_paths" >
+109-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:20:17-51
+110            </meta-data>
+111        </provider>
+112
+113        <activity
+113-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:24:9-27:20
+114            android:name="com.luck.picture.lib.PictureSelectorActivity"
+114-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:25:13-72
+115            android:configChanges="orientation|keyboardHidden|screenSize" >
+115-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:26:13-74
+116        </activity>
+117        <activity
+117-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:28:9-31:20
+118            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+118-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:29:13-83
+119            android:configChanges="orientation|keyboardHidden|screenSize" >
+119-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:30:13-74
+120        </activity>
+121        <activity
+121-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:32:9-36:20
+122            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+122-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:33:13-83
+123            android:configChanges="orientation|keyboardHidden|screenSize"
+123-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:34:13-74
+124            android:theme="@style/Picture.Theme.Translucent" >
+124-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:35:13-61
+125        </activity>
+126        <activity
+126-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:37:9-40:20
+127            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+127-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:38:13-76
+128            android:configChanges="orientation|keyboardHidden|screenSize" >
+128-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:39:13-74
+129        </activity>
+130        <activity
+130-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:41:9-44:20
+131            android:name="com.luck.picture.lib.PicturePreviewActivity"
+131-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:42:13-71
+132            android:configChanges="orientation|keyboardHidden|screenSize" >
+132-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:43:13-74
+133        </activity>
+134        <activity
+134-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:45:9-48:20
+135            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+135-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:46:13-90
+136            android:configChanges="orientation|keyboardHidden|screenSize" >
+136-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:47:13-74
+137        </activity>
+138        <activity
+138-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:49:9-53:20
+139            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+139-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:50:13-73
+140            android:configChanges="orientation|keyboardHidden|screenSize"
+140-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:51:13-74
+141            android:screenOrientation="sensor" >
+141-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:52:13-47
+142        </activity>
+143        <activity
+143-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:54:9-57:20
+144            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+144-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:55:13-79
+145            android:configChanges="orientation|keyboardHidden|screenSize" >
+145-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:56:13-74
+146        </activity>
+147        <activity
+147-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:58:9-61:20
+148            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+148-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:59:13-73
+149            android:configChanges="orientation|keyboardHidden|screenSize" >
+149-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:60:13-74
+150        </activity>
+151        <activity
+151-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:62:9-65:20
+152            android:name="com.yalantis.ucrop.UCropActivity"
+152-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:63:13-60
+153            android:theme="@style/Base.Theme.NoActionBar" >
+153-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:64:13-58
+154        </activity>
+155        <activity
+155-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:66:9-69:20
+156            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+156-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:67:13-74
+157            android:theme="@style/Base.Theme.NoActionBar" >
+157-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] C:\Users\SHALEMU\.gradle\caches\transforms-3\ae677b2e52d8cd1cfd537930cbc52a2f\transformed\jetified-pictureselector-v2.7.3-rc10\AndroidManifest.xml:68:13-58
+158        </activity> <!-- Needs to be explicitly declared on P+ -->
+159        <uses-library
+159-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+160            android:name="org.apache.http.legacy"
+160-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+161            android:required="false" />
+161-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\c7d7964260281c860e3bad396473e46e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+162
+163        <activity
+163-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:23:9-27:75
+164            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+164-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:24:13-93
+165            android:excludeFromRecents="true"
+165-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:25:13-46
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:26:13-37
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:27:13-72
+168        <!--
+169            Service handling Google Sign-In user revocation. For apps that do not integrate with
+170            Google Sign-In, this service will never be started.
+171        -->
+172        <service
+172-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:33:9-37:51
+173            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+173-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:34:13-89
+174            android:exported="true"
+174-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:35:13-36
+175            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+175-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:36:13-107
+176            android:visibleToInstantApps="true" />
+176-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\07b0c63c47fb5b2e2c7b64a114c80059\transformed\jetified-play-services-auth-21.2.0\AndroidManifest.xml:37:13-48
+177
+178        <activity
+178-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+179            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+179-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+181-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\866c34b7f6def3f0f50fd850d4cfa4fe\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+182
+183        <meta-data
+183-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+184            android:name="com.google.android.gms.version"
+184-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+185            android:value="@integer/google_play_services_version" />
+185-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\85d833bd46d79bdf9de54abeb903824c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+186        <!--
+187        Service for holding metadata. Cannot be instantiated.
+188        Metadata will be merged from other manifests.
+189        -->
+190        <service
+190-->[androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:31:9-35:45
+191            android:name="androidx.camera.core.impl.MetadataHolderService"
+191-->[androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:32:13-75
+192            android:enabled="false"
+192-->[androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:33:13-36
+193            android:exported="false" />
+193-->[androidx.camera:camera-core:1.1.0-alpha10] C:\Users\SHALEMU\.gradle\caches\transforms-3\416adf27ee467664aa4e84305ee244b7\transformed\jetified-camera-core-1.1.0-alpha10\AndroidManifest.xml:34:13-37
+194
+195        <provider
+195-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+196            android:name="androidx.startup.InitializationProvider"
+196-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+197            android:authorities="com.mauzoApp.app.androidx-startup"
+197-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+198            android:exported="false" >
+198-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+199            <meta-data
+199-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+200                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+200-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+201                android:value="androidx.startup" />
+201-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\SHALEMU\.gradle\caches\transforms-3\2bcbc3e90ba55dfc2b3327db5348cb78\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+202            <meta-data
+202-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+203                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+203-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+204                android:value="androidx.startup" />
+204-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+205        </provider>
+206
+207        <receiver
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+208            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+209            android:directBootAware="false"
+209-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+210            android:enabled="true"
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+211            android:exported="true"
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+212            android:permission="android.permission.DUMP" >
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+213            <intent-filter>
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+214                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+215            </intent-filter>
+216            <intent-filter>
+216-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+217                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+218            </intent-filter>
+219            <intent-filter>
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+220                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+221            </intent-filter>
+222            <intent-filter>
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+223                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SHALEMU\.gradle\caches\transforms-3\a8c6dba4a59166e43fa5bb1269a928f6\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+224            </intent-filter>
+225        </receiver>
+226    </application>
+227
+228</manifest>
